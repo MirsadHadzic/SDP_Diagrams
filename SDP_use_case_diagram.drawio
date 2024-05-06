@@ -1,9 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2024-05-06T16:28:17.860Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.1" etag="TC-54h5dRBtfZ88YKnR2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-06T18:13:09.617Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="xVbDBiolTJPJWj0BjQgJ" version="24.3.1" type="github">
   <diagram name="Page-1" id="HyT1-Zc3a3G1l8eyhBx9">
-    <mxGraphModel>
+    <mxGraphModel dx="2385" dy="1515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uf0vXHqL-8Rub9hUOWgM-5" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="740" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uf0vXHqL-8Rub9hUOWgM-6" value="" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="244" y="380" width="736" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="uf0vXHqL-8Rub9hUOWgM-8" value="" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="440" width="370" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uf0vXHqL-8Rub9hUOWgM-12" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="730" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uf0vXHqL-8Rub9hUOWgM-13" value="Register" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="800" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uf0vXHqL-8Rub9hUOWgM-14" value="Using Text" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uf0vXHqL-8Rub9hUOWgM-15" value="Using URL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uf0vXHqL-8Rub9hUOWgM-16" value="Using Voice" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="620" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uf0vXHqL-8Rub9hUOWgM-17" value="Using File" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="620" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uf0vXHqL-8Rub9hUOWgM-23" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="uf0vXHqL-8Rub9hUOWgM-12">
+          <mxGeometry x="-0.1829" y="-7" relative="1" as="geometry">
+            <mxPoint x="490" y="834.55" as="sourcePoint" />
+            <mxPoint x="410" y="834.55" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uf0vXHqL-8Rub9hUOWgM-28" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="uf0vXHqL-8Rub9hUOWgM-12">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="769.33" as="sourcePoint" />
+            <mxPoint x="200" y="769.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uf0vXHqL-8Rub9hUOWgM-29" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=-0.004;entryY=0.818;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="uf0vXHqL-8Rub9hUOWgM-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="740" as="sourcePoint" />
+            <mxPoint x="560" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uf0vXHqL-8Rub9hUOWgM-30" value="&lt;b&gt;Perform Sentiment Analysis&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="597.5" y="440" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uf0vXHqL-8Rub9hUOWgM-31" value="&lt;b&gt;SentimentSnap (NLP_APP)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="565" y="390" width="240" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
